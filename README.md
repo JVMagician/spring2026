@@ -9,7 +9,6 @@ Before using the source code below, make sure you have completed the following s
 
 - Create a new project in IntelliJ
 - Name the project: ```pgccdownloaderapp```
-- Run the default application
 - Build and run the project to confirm everything is working correctly.
 - You should see the default JavaFX application window.
 - Verify functionality

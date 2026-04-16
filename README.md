@@ -15,7 +15,7 @@ Before using the source code below, make sure you have completed the following s
   - Ensure the app launches without errors before continuing.
 
 ## Refactor the default files
-- Rename the following files:
+- Ensure to right click (on the file) -> refactor -> Rename the following files:
   - hello-view.fxml → ```downloader-view.fxml```
   - HelloApplication.java → ```DownloaderApplication.java```
   - HelloController.java → ```DownloaderController.java```

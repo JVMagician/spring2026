@@ -22,4 +22,5 @@ Before using the source code below, make sure you have completed the following s
   - HelloController.java → ```DownloaderController.java```
 
 ## Expected output
-![Demo GIF](https://github.com/JVMagician/spring2026/blob/main/multithreading-demo.gif)
+- Click on the image below to see the download progress animated
+- ![Demo GIF](https://github.com/JVMagician/spring2026/blob/main/multithreading-demo.gif)

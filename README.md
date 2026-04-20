@@ -42,4 +42,5 @@ Before using the source code below, make sure you have completed the following s
   - Test the application to ensure all buttons work correctly mathematically.
 ## 6. Submit Your Work
 - Upload your completed project to your own GitHub repository.
-- Share the link to your source code with the instructor.
+- Share the link Github link with me.
+- ![Calculator screen](https://github.com/JVMagician/spring2026/blob/main/calculator-screenshot.png)

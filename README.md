@@ -44,3 +44,6 @@ Before using the source code below, make sure you have completed the following s
 - Upload your completed project to your own GitHub repository.
 - Share the link Github link with me.
 - ![Calculator screen](https://github.com/JVMagician/spring2026/blob/main/calculator-screenshot.png)
+---
+# Photo Gallery
+![Photo gallery](https://github.com/JVMagician/spring2026/blob/main/buffalo.png)

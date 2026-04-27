@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fileoperation.FileOprController">
+
+          <!-- Menu Bar -->
+    <MenuBar>
+        <Menu text="File">
+            <MenuItem onAction="#handleCreateNewFile" text="New File" />
+            <SeparatorMenuItem />
+            <MenuItem onAction="#handleOpen" text="Open existing file" />
+         <SeparatorMenuItem />
+         <MenuItem onAction="#handleSaveFile" text="Save" />
+         <SeparatorMenuItem />
+         <MenuItem onAction="#handleExit" text="Exit" />
+        </Menu>
+    </MenuBar>
+   <VBox prefWidth="620.0">
+      <children>
+      
+          <!-- Label for selected file -->
+          <Label fx:id="fileLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="No file selected">
+            <font>
+               <Font size="15.0" />
+            </font>
+            <padding>
+               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+         </Label>
+      
+          <!-- TextArea to display file content -->
+          <TextArea fx:id="fileContentArea" prefHeight="400" prefWidth="600" />
+      </children>
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      </padding>
+   </VBox>
+
+</VBox>

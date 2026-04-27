@@ -1,11 +1,7 @@
 # MenuItem and File Operations Instructions
 - Create a new project in IntelliJ
 - Name the project: ```fileoperation```
-- <p align="left">
-  <img src="https://github.com/JVMagician/spring2026/blob/main/MenuFileOpr/Menu_FileOpr.png" 
-       alt="fileoperation" 
-       width="600" />
-</p>
+- <p align="left"><img src="https://github.com/JVMagician/spring2026/blob/main/MenuFileOpr/Menu_FileOpr.png" alt="fileoperation" width="600" /></p>
 - Build and run the project to confirm everything is working correctly.
 - You should see the default JavaFX application window.
 - Verify functionality
